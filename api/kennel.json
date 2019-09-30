@@ -1,0 +1,50 @@
+{
+  "animals": [
+    {
+      "id": 2,
+      "name": "Decker",
+      "breed": "German Sheperd"
+    },
+    {
+      "id": 4,
+      "name": "Bobbie",
+      "breed": "Beagel"
+    },
+    {
+      "id": 5,
+      "name": "Roger",
+      "breed": "Basset Hound"
+    },
+    {
+      "id": 6,
+      "name": "Tay-Tay",
+      "breed": "Jack Russell Terrier"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Frank",
+      "title": "Manager"
+    },
+    {
+      "id": 2,
+      "name": "Larry",
+      "title": "Assistant Manager"
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Heather",
+      "title": "Boss Lady"
+    }
+  ],
+  "location": [
+    {
+      "id": 1,
+      "name": "Kennel 1",
+      "location": "Germany"
+    }
+  ]
+}
