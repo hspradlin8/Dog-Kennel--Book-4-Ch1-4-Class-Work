@@ -6,14 +6,29 @@
       "breed": "German Sheperd"
     },
     {
+      "id": 3,
+      "name": "Sallie",
+      "breed": "German Sheperd"
+    },
+    {
       "id": 4,
       "name": "Bobbie",
       "breed": "Beagel"
     },
     {
-      "id": 5,
-      "name": "Roger",
-      "breed": "Basset Hound"
+      "name": "Billie ",
+      "breed": "Cat",
+      "id": 5
+    },
+    {
+      "name": "Edward ",
+      "breed": "Cat ",
+      "id": 6
+    },
+    {
+      "name": "Lil Jerry ",
+      "breed": "Fat Cat ",
+      "id": 7
     }
   ],
   "employees": [
@@ -53,8 +68,13 @@
     },
     {
       "id": 2,
-      "name": "Kennel 2",
+      "name": "Kennel 1",
       "place": "Canada"
+    },
+    {
+      "id": 3,
+      "name": "Kennel 1",
+      "place": "Germany"
     }
   ]
 }

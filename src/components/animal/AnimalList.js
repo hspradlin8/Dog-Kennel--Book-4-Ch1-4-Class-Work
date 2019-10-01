@@ -33,13 +33,22 @@ class AnimalList extends Component {
 
     render() {
         return (
+            <>
+            <section className="section-content">
+                <button type="button"
+                    className="btn"
+                    onClick={() => { this.props.history.push("/animals/new") }}>
+                    Admit Animal
+                </button>
+            </section>
             <div className="container-cards">
-                {this.state.animals.map(animal => 
-                    <AnimalCard 
-                        key={animal.id} 
+                {this.state.animals.map(animal =>
+                    <AnimalCard
+                        key={animal.id}
                         animal={animal}
                         deleteAnimal={this.deleteAnimal} />)}
             </div>
+            </>
         )
     }
 
