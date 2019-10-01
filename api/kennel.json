@@ -14,11 +14,6 @@
       "id": 5,
       "name": "Roger",
       "breed": "Basset Hound"
-    },
-    {
-      "id": 6,
-      "name": "Tay-Tay",
-      "breed": "Jack Russell Terrier"
     }
   ],
   "employees": [
@@ -31,6 +26,11 @@
       "id": 2,
       "name": "Larry",
       "title": "Assistant Manager"
+    },
+    {
+      "id": 3,
+      "name": "Harriet",
+      "title": "Assistant Manager"
     }
   ],
   "owners": [
@@ -38,13 +38,23 @@
       "id": 1,
       "name": "Heather",
       "title": "Boss Lady"
+    },
+    {
+      "id": 2,
+      "name": "Robin",
+      "title": "Assistant to the boss"
     }
   ],
   "location": [
     {
       "id": 1,
       "name": "Kennel 1",
-      "location": "Germany"
+      "place": "England"
+    },
+    {
+      "id": 2,
+      "name": "Kennel 2",
+      "place": "Canada"
     }
   ]
 }
