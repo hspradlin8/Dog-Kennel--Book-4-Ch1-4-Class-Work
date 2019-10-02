@@ -8,7 +8,7 @@ class AnimalCard extends Component {
       <div className="card">
         <div className="card-content">
           <picture>
-            <img src={require('./images.jpg')} alt="My Dog" />
+            <img src={require(`../../images/${this.props.animal.url}`)} alt="Animal" />
           </picture>
           <h3>Name: <span className="card-petname">{firstLetterCase(this.props.animal.name)}</span></h3>
           <p>Breed: {this.props.animal.breed} </p>

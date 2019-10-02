@@ -3,32 +3,44 @@
     {
       "id": 2,
       "name": "Decker",
-      "breed": "German Sheperd"
+      "breed": "German Sheperd",
+      "url": "images.jpg"
     },
     {
       "id": 3,
       "name": "Sallie",
-      "breed": "German Sheperd"
+      "breed": "German Sheperd",
+      "url": "images.jpg"
     },
     {
       "id": 4,
       "name": "Bobbie",
-      "breed": "Beagel"
+      "breed": "Beagel",
+      "url": "images.jpg"
     },
     {
       "name": "Billie ",
       "breed": "Cat",
-      "id": 5
+      "id": 5,
+      "url": "images.jpg"
     },
     {
       "name": "Edward ",
       "breed": "Cat ",
-      "id": 6
+      "id": 6,
+      "url": "Edward.JPG"
     },
     {
       "name": "Lil Jerry ",
       "breed": "Fat Cat ",
-      "id": 7
+      "id": 7,
+      "url": "Jerry.JPG"
+    },
+    {
+      "name": "Frankenstein ",
+      "breed": "Cat",
+      "id": 8,
+      "url": "Frank.JPG"
     }
   ],
   "employees": [
