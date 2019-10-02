@@ -37,7 +37,8 @@ class OwnerList extends Component {
                     <OwnerCard
                         key={owner.id}
                         owner={owner}
-                        deleteOwner={this.deleteOwner} />)}
+                        deleteOwner={this.deleteOwner}
+                        {...this.props} />)}
             </div>
         )
     }

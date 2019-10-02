@@ -4,25 +4,25 @@
       "id": 2,
       "name": "Decker",
       "breed": "German Sheperd",
-      "url": "images.jpg"
+      "url": "dog1.jpg"
     },
     {
       "id": 3,
       "name": "Sallie",
       "breed": "German Sheperd",
-      "url": "images.jpg"
+      "url": "dog2.jpg"
     },
     {
       "id": 4,
       "name": "Bobbie",
       "breed": "Beagel",
-      "url": "images.jpg"
+      "url": "beagle.jpg"
     },
     {
       "name": "Billie ",
       "breed": "Cat",
       "id": 5,
-      "url": "images.jpg"
+      "url": "cat1.jpg"
     },
     {
       "name": "Edward ",
@@ -76,17 +76,20 @@
     {
       "id": 1,
       "name": "Kennel 1",
-      "place": "England"
+      "place": "England",
+      "url": "England.jpg"
     },
     {
       "id": 2,
       "name": "Kennel 1",
-      "place": "Canada"
+      "place": "Canada",
+      "url": "Canada.jpg"
     },
     {
       "id": 3,
       "name": "Kennel 1",
-      "place": "Germany"
+      "place": "Germany",
+      "url": "Germany.jpg"
     }
   ]
 }

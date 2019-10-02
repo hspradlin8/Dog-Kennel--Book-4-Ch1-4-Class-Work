@@ -7,7 +7,8 @@ class LocationDetail extends Component {
     state = {
         name: "",
         place: "",
-        loadingStatus: true,
+        url: "",
+        loadingStatus: true
     }
 
     handleDelete = () => {
@@ -24,17 +25,19 @@ class LocationDetail extends Component {
             this.setState({
                 name: location.name,
                 place: location.breed,
+                url: location.url,
                 loadingStatus: false
             });
         });
     }
 
     render() {
+      console.log(this.props);
       return (
         <div className="card">
           <div className="card-content">
             <picture>
-              <img src={require('./Germany.jpg')} alt="Germany" />
+              <img src={require(`../../images/${this.state.url}`)} alt="place" />
             </picture>
             <h3>Name: <span style={{ color: 'darkslategrey' }}>{this.state.name}</span></h3>
             <p>Place: {this.state.place}</p>
