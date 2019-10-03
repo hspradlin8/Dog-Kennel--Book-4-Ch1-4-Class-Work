@@ -11,13 +11,12 @@ class EmployeeDetail extends Component {
     }
 
     componentDidMount(){
-        console.log("EmployeeDetail: ComponentDidMount");
         //get(id) from AnimalManager and hang on to that data; put it into state
         EmployeeManager.get(this.props.employeeId)
         .then((employee) => {
             this.setState({
                 name: employee.name,
-                breed: employee.breed,
+                title: employee.title,
                 loadingStatus: false
             });
         });

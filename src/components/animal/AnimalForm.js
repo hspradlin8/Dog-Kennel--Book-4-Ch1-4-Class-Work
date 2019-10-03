@@ -7,6 +7,7 @@ class AnimalForm extends Component {
         animalName: "",
         breed: "",
         loadingStatus: false,
+        url: ""
     };
 
     handleFieldChange = evt => {
@@ -26,6 +27,7 @@ class AnimalForm extends Component {
             const animal = {
                 name: this.state.animalName,
                 breed: this.state.breed,
+                url: this.state.url
             };
 
             // Create the animal and redirect user to animal list
@@ -57,6 +59,16 @@ class AnimalForm extends Component {
                                 placeholder="Breed"
                             />
                             <label htmlFor="breed">Breed</label>
+                              {/* where the input for URL starts */}
+                         <input
+                        type="url"
+                        required
+                        onChange={this.handleFieldChange}
+                        id="photo"
+                        placeholder="Animal Photo"
+                        />
+                        <label htmlFor="photo">Photo</label>
+                        {/* where the input for URL ends */}
                         </div>
                         <div className="alignRight">
                             <button

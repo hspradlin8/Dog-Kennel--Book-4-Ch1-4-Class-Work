@@ -4,7 +4,6 @@ import {firstLetterCase} from '../../modules/helpers';
 
 class LocationCard extends Component {
   render() {
-    console.log(this.props);
     return (
       <div className="card">
         <div className="card-content">

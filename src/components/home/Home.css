@@ -1,5 +1,19 @@
-body {
+/* body {
 font-size: 20px;
 background-color: lightcoral;
-}
+background-image: url(https://i.pinimg.com/236x/41/41/9c/41419cef018904e19a4387222486cf61.jpg);
+background: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+} */
 
+body { 
+    font-size: 20px;
+    text-align: center;
+    background: url(https://i.pinimg.com/236x/41/41/9c/41419cef018904e19a4387222486cf61.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }

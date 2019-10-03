@@ -32,7 +32,6 @@ class LocationDetail extends Component {
     }
 
     render() {
-      console.log(this.props);
       return (
         <div className="card">
           <div className="card-content">

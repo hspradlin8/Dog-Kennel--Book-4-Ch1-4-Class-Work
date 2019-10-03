@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import {firstLetterCase} from '../../modules/helpers'
+import AnimalManager from '../../modules/AnimalManager'
 
 class AnimalCard extends Component {
+  
+  handleDelete = (id) => {
+    AnimalManager.delete(id)
+    .then(() => this.props.getData());
+  }
+
   render() {
     return (
       <div className="card">
@@ -14,7 +21,7 @@ class AnimalCard extends Component {
           <p>Breed: {this.props.animal.breed} </p>
           <Link to={`/animals/${this.props.animal.id}`}><button>Details</button></Link>
           <button type="button" onClick={() => {this.props.history.push(`/animals/${this.props.animal.id}/edit`)}}>Edit</button>
-          <button type="button" onClick={() => this.props.deleteAnimal(this.props.animal.id)}>Discharge</button>
+          <button type="button" onClick={() => this.props.handleDelete(this.props.animal.id)}>Discharge</button>
         </div>
       </div>
     );

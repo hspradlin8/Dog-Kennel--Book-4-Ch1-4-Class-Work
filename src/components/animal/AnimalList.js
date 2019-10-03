@@ -21,7 +21,7 @@ class AnimalList extends Component {
             })
     }
 
-    componentDidMount() {
+    getData = () => {
         //getAll from AnimalManager and hang on to that data; put it in state
         AnimalManager.getAll()
             .then((animals) => {
@@ -31,6 +31,10 @@ class AnimalList extends Component {
             })
     }
 
+    componentDidMount() {
+        this.getData()
+    }
+    
     render() {
         return (
             <>

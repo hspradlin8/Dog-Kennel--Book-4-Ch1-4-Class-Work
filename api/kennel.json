@@ -4,43 +4,50 @@
       "id": 2,
       "name": "Decker",
       "breed": "German Sheperd",
-      "url": "dog1.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Sallie",
-      "breed": "German Sheperd",
-      "url": "dog2.jpg"
+      "url": "dog1.jpg",
+      "employeeId": 1
     },
     {
       "id": 4,
       "name": "Bobbie",
       "breed": "Beagel",
-      "url": "beagle.jpg"
-    },
-    {
-      "name": "Billie ",
-      "breed": "Cat",
-      "id": 5,
-      "url": "cat1.jpg"
+      "url": "beagle.jpg",
+      "employeeId": 3
     },
     {
       "name": "Edward ",
       "breed": "Cat ",
       "id": 6,
-      "url": "Edward.JPG"
+      "url": "Edward.JPG",
+      "employeeId": 1
     },
     {
       "name": "Lil Jerry ",
       "breed": "Fat Cat ",
       "id": 7,
-      "url": "Jerry.JPG"
+      "url": "Jerry.JPG",
+      "employeeId": 3
     },
     {
-      "name": "Frankenstein ",
+      "name": "Frank ",
+      "breed": "Cat ",
+      "id": 5,
+      "url": "Frank.JPG",
+      "employeeId": 2
+    },
+    {
+      "name": "Sallie",
+      "breed": "German Sheperd",
+      "id": 3,
+      "url": "dog2.jpg",
+      "employeeId": 3
+    },
+    {
+      "name": "Grumpy",
       "breed": "Cat",
       "id": 8,
-      "url": "Frank.JPG"
+      "url": "cat1.jpg",
+      "employeeId": 2
     }
   ],
   "employees": [
@@ -52,7 +59,7 @@
     {
       "id": 2,
       "name": "Larry",
-      "title": "Assistant Manager"
+      "title": "Manager"
     },
     {
       "id": 3,

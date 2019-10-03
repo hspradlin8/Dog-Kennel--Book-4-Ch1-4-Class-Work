@@ -5,7 +5,7 @@ class Home extends Component {
     render() {
         return (
             <div >
-                <h2>Student Kennels<br />
+                <h2>NSS Kennels<br />
                     <small>Loving care when you're not there.</small>
                 </h2>
                 <address>
